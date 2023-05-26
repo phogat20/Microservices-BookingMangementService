@@ -1,0 +1,93 @@
+# Project Structure
+online-bookstore/
+├── book-service/
+│   ├── src/
+│   └── ...
+├── hotel-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── bookstore/
+│   │   │   │               └── hotel/
+│   │   │   │                   ├── HotelServiceApplication.java
+│   │   │   │                   ├── config/
+│   │   │   │                   │   └── SwaggerConfig.java
+│   │   │   │                   ├── controller/
+│   │   │   │                   │   └── HotelController.java
+│   │   │   │                   ├── model/
+│   │   │   │                   │   └── Hotel.java
+│   │   │   │                   ├── repository/
+│   │   │   │                   │   └── HotelRepository.java
+│   │   │   │                   └── service/
+│   │   │   │                       └── HotelService.java
+│   │   │   └── resources/
+│   │   │       └── application.properties
+│   │   └── test/
+│   │       └── java/
+│   │           └── com/
+│   │               └── example/
+│   │                   └── bookstore/
+│   │                       └── hotel/
+│   │                           └── HotelServiceApplicationTests.java
+│   └── pom.xml
+├── rating-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── bookstore/
+│   │   │   │               └── rating/
+│   │   │   │                   ├── RatingServiceApplication.java
+│   │   │   │                   ├── config/
+│   │   │   │                   │   └── SwaggerConfig.java
+│   │   │   │                   ├── controller/
+│   │   │   │                   │   └── RatingController.java
+│   │   │   │                   ├── model/
+│   │   │   │                   │   └── Rating.java
+│   │   │   │                   ├── repository/
+│   │   │   │                   │   └── RatingRepository.java
+│   │   │   │                   └── service/
+│   │   │   │                       └── RatingService.java
+│   │   │   └── resources/
+│   │   │       └── application.properties
+│   │   └── test/
+│   │       └── java/
+│   │           └── com/
+│   │               └── example/
+│   │                   └── bookstore/
+│   │                       └── rating/
+│   │                           └── RatingServiceApplicationTests.java
+│   └── pom.xml
+├── user-service/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/
+│   │   │   │       └── example/
+│   │   │   │           └── bookstore/
+│   │   │   │               └── user/
+│   │   │   │                   ├── UserServiceApplication.java
+│   │   │   │                   ├── config/
+│   │   │   │                   │   └── SwaggerConfig.java
+│   │   │   │                   ├── controller/
+│   │   │   │                   │   └── UserController.java
+│   │   │   │                   ├── model/
+│   │   │   │                   │   └── User.java
+│   │   │   │                   ├── repository/
+│   │   │   │                   │   └── UserRepository.java
+│   │   │   │                   └── service/
+│   │   │   │                       └── UserService.java
+│   │   │   └── resources/
+│   │   │       └── application.properties
+│   │   └── test/
+│   │       └── java/
+│   │           └── com/
+│   │               └── example/
+│   │                   └── bookstore/
+│   │                       └── user/
+│   │                           └── UserServiceApplicationTests.java
+│   └── pom.xml
+└── pom.xml
