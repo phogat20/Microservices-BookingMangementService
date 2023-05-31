@@ -5,3 +5,5 @@
 
 # Service Registry
 ![Service Registery](https://github.com/phogat20/Microservices-HotelService/assets/84695818/37ab769e-88be-4d43-aae0-89a77df7310e)
+
+# API Gateway
