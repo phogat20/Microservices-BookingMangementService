@@ -3,6 +3,7 @@
 This is a microservices application for a hotel system, developed using Spring Boot. It consists of various services such as the rating service, user service, and hotel service. The application also incorporates security, an API gateway, a service registry using Eureka, and communication between services using Feign client.
 
 ## Tools & Technologies used:
+
 - Spring Boot
 - Spring JPA
 - Spring Security
